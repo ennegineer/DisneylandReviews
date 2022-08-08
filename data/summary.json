@@ -1,0 +1,557 @@
+[
+    {
+        "Reviewer_Location": "Argentina",
+        "Avg_Rating": 4.4444444444,
+        "Reviews_Count": 9
+    },
+    {
+        "Reviewer_Location": "Armenia",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Aruba",
+        "Avg_Rating": 5,
+        "Reviews_Count": 2
+    },
+    {
+        "Reviewer_Location": "Australia",
+        "Avg_Rating": 4.5388071895,
+        "Reviews_Count": 2448
+    },
+    {
+        "Reviewer_Location": "Austria",
+        "Avg_Rating": 4.2,
+        "Reviews_Count": 5
+    },
+    {
+        "Reviewer_Location": "Bahrain",
+        "Avg_Rating": 5,
+        "Reviews_Count": 2
+    },
+    {
+        "Reviewer_Location": "Bangladesh",
+        "Avg_Rating": 5,
+        "Reviews_Count": 4
+    },
+    {
+        "Reviewer_Location": "Barbados",
+        "Avg_Rating": 4.5,
+        "Reviews_Count": 2
+    },
+    {
+        "Reviewer_Location": "Belgium",
+        "Avg_Rating": 4.3333333333,
+        "Reviews_Count": 9
+    },
+    {
+        "Reviewer_Location": "Bolivia",
+        "Avg_Rating": 5,
+        "Reviews_Count": 2
+    },
+    {
+        "Reviewer_Location": "Botswana",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Brazil",
+        "Avg_Rating": 4.3653846154,
+        "Reviews_Count": 52
+    },
+    {
+        "Reviewer_Location": "Bulgaria",
+        "Avg_Rating": 3,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Cambodia",
+        "Avg_Rating": 4,
+        "Reviews_Count": 2
+    },
+    {
+        "Reviewer_Location": "Canada",
+        "Avg_Rating": 4.4117327539,
+        "Reviews_Count": 1841
+    },
+    {
+        "Reviewer_Location": "Caribbean Netherlands",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Cayman Islands",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Chile",
+        "Avg_Rating": 4.5555555556,
+        "Reviews_Count": 9
+    },
+    {
+        "Reviewer_Location": "China",
+        "Avg_Rating": 4.5,
+        "Reviews_Count": 12
+    },
+    {
+        "Reviewer_Location": "Colombia",
+        "Avg_Rating": 3.6666666667,
+        "Reviews_Count": 6
+    },
+    {
+        "Reviewer_Location": "Cook Islands",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Costa Rica",
+        "Avg_Rating": 4.5555555556,
+        "Reviews_Count": 9
+    },
+    {
+        "Reviewer_Location": "Croatia",
+        "Avg_Rating": 4,
+        "Reviews_Count": 3
+    },
+    {
+        "Reviewer_Location": "Cuba",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Czechia",
+        "Avg_Rating": 3.25,
+        "Reviews_Count": 4
+    },
+    {
+        "Reviewer_Location": "Denmark",
+        "Avg_Rating": 4.0952380952,
+        "Reviews_Count": 21
+    },
+    {
+        "Reviewer_Location": "Dominican Republic",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Ecuador",
+        "Avg_Rating": 3,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Egypt",
+        "Avg_Rating": 4.8947368421,
+        "Reviews_Count": 19
+    },
+    {
+        "Reviewer_Location": "Estonia",
+        "Avg_Rating": 2,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Ethiopia",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Falkland Islands (Islas Malvinas)",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Fiji",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Finland",
+        "Avg_Rating": 4.1,
+        "Reviews_Count": 10
+    },
+    {
+        "Reviewer_Location": "France",
+        "Avg_Rating": 4.2272727273,
+        "Reviews_Count": 22
+    },
+    {
+        "Reviewer_Location": "French Polynesia",
+        "Avg_Rating": 4.25,
+        "Reviews_Count": 4
+    },
+    {
+        "Reviewer_Location": "Germany",
+        "Avg_Rating": 3.8518518519,
+        "Reviews_Count": 27
+    },
+    {
+        "Reviewer_Location": "Greece",
+        "Avg_Rating": 4.4545454545,
+        "Reviews_Count": 11
+    },
+    {
+        "Reviewer_Location": "Guam",
+        "Avg_Rating": 4.8571428571,
+        "Reviews_Count": 7
+    },
+    {
+        "Reviewer_Location": "Guatemala",
+        "Avg_Rating": 4.3333333333,
+        "Reviews_Count": 6
+    },
+    {
+        "Reviewer_Location": "Honduras",
+        "Avg_Rating": 4,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Hong Kong",
+        "Avg_Rating": 4.1538461538,
+        "Reviews_Count": 13
+    },
+    {
+        "Reviewer_Location": "Hungary",
+        "Avg_Rating": 4,
+        "Reviews_Count": 4
+    },
+    {
+        "Reviewer_Location": "Iceland",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "India",
+        "Avg_Rating": 4.362962963,
+        "Reviews_Count": 135
+    },
+    {
+        "Reviewer_Location": "Indonesia",
+        "Avg_Rating": 4.3076923077,
+        "Reviews_Count": 26
+    },
+    {
+        "Reviewer_Location": "Iran",
+        "Avg_Rating": 5,
+        "Reviews_Count": 2
+    },
+    {
+        "Reviewer_Location": "Iraq",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Ireland",
+        "Avg_Rating": 4.1388888889,
+        "Reviews_Count": 36
+    },
+    {
+        "Reviewer_Location": "Israel",
+        "Avg_Rating": 3.9722222222,
+        "Reviews_Count": 36
+    },
+    {
+        "Reviewer_Location": "Italy",
+        "Avg_Rating": 4.1904761905,
+        "Reviews_Count": 21
+    },
+    {
+        "Reviewer_Location": "Jamaica",
+        "Avg_Rating": 4,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Japan",
+        "Avg_Rating": 4.6842105263,
+        "Reviews_Count": 19
+    },
+    {
+        "Reviewer_Location": "Jersey",
+        "Avg_Rating": 4,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Jordan",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Kazakhstan",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Kenya",
+        "Avg_Rating": 4,
+        "Reviews_Count": 2
+    },
+    {
+        "Reviewer_Location": "Kuwait",
+        "Avg_Rating": 4.4285714286,
+        "Reviews_Count": 7
+    },
+    {
+        "Reviewer_Location": "Lebanon",
+        "Avg_Rating": 4.75,
+        "Reviews_Count": 8
+    },
+    {
+        "Reviewer_Location": "Luxembourg",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Macau",
+        "Avg_Rating": 4,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Malaysia",
+        "Avg_Rating": 4.5,
+        "Reviews_Count": 30
+    },
+    {
+        "Reviewer_Location": "Malta",
+        "Avg_Rating": 5,
+        "Reviews_Count": 2
+    },
+    {
+        "Reviewer_Location": "Mexico",
+        "Avg_Rating": 4.4257425743,
+        "Reviews_Count": 101
+    },
+    {
+        "Reviewer_Location": "Montenegro",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Morocco",
+        "Avg_Rating": 5,
+        "Reviews_Count": 2
+    },
+    {
+        "Reviewer_Location": "Namibia",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Netherlands",
+        "Avg_Rating": 4.1764705882,
+        "Reviews_Count": 34
+    },
+    {
+        "Reviewer_Location": "New Zealand",
+        "Avg_Rating": 4.4876660342,
+        "Reviews_Count": 527
+    },
+    {
+        "Reviewer_Location": "Nicaragua",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Nigeria",
+        "Avg_Rating": 3.8,
+        "Reviews_Count": 5
+    },
+    {
+        "Reviewer_Location": "Northern Mariana Islands",
+        "Avg_Rating": 3,
+        "Reviews_Count": 3
+    },
+    {
+        "Reviewer_Location": "Norway",
+        "Avg_Rating": 4.04,
+        "Reviews_Count": 25
+    },
+    {
+        "Reviewer_Location": "Pakistan",
+        "Avg_Rating": 4.3333333333,
+        "Reviews_Count": 3
+    },
+    {
+        "Reviewer_Location": "Panama",
+        "Avg_Rating": 4.25,
+        "Reviews_Count": 4
+    },
+    {
+        "Reviewer_Location": "Papua New Guinea",
+        "Avg_Rating": 4,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Peru",
+        "Avg_Rating": 4.6,
+        "Reviews_Count": 5
+    },
+    {
+        "Reviewer_Location": "Philippines",
+        "Avg_Rating": 4.5454545455,
+        "Reviews_Count": 55
+    },
+    {
+        "Reviewer_Location": "Poland",
+        "Avg_Rating": 4.8,
+        "Reviews_Count": 5
+    },
+    {
+        "Reviewer_Location": "Portugal",
+        "Avg_Rating": 4.3333333333,
+        "Reviews_Count": 9
+    },
+    {
+        "Reviewer_Location": "Puerto Rico",
+        "Avg_Rating": 4.5,
+        "Reviews_Count": 16
+    },
+    {
+        "Reviewer_Location": "Qatar",
+        "Avg_Rating": 4.5,
+        "Reviews_Count": 6
+    },
+    {
+        "Reviewer_Location": "Romania",
+        "Avg_Rating": 4.5555555556,
+        "Reviews_Count": 9
+    },
+    {
+        "Reviewer_Location": "Russia",
+        "Avg_Rating": 4.4285714286,
+        "Reviews_Count": 7
+    },
+    {
+        "Reviewer_Location": "Rwanda",
+        "Avg_Rating": 5,
+        "Reviews_Count": 2
+    },
+    {
+        "Reviewer_Location": "Saudi Arabia",
+        "Avg_Rating": 4,
+        "Reviews_Count": 16
+    },
+    {
+        "Reviewer_Location": "Singapore",
+        "Avg_Rating": 4.1612903226,
+        "Reviews_Count": 93
+    },
+    {
+        "Reviewer_Location": "Slovakia",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "South Africa",
+        "Avg_Rating": 4.2307692308,
+        "Reviews_Count": 26
+    },
+    {
+        "Reviewer_Location": "South Korea",
+        "Avg_Rating": 4.3,
+        "Reviews_Count": 10
+    },
+    {
+        "Reviewer_Location": "Spain",
+        "Avg_Rating": 4.2857142857,
+        "Reviews_Count": 21
+    },
+    {
+        "Reviewer_Location": "Sri Lanka",
+        "Avg_Rating": 4.5,
+        "Reviews_Count": 4
+    },
+    {
+        "Reviewer_Location": "Sweden",
+        "Avg_Rating": 4.0476190476,
+        "Reviews_Count": 21
+    },
+    {
+        "Reviewer_Location": "Switzerland",
+        "Avg_Rating": 4.1764705882,
+        "Reviews_Count": 17
+    },
+    {
+        "Reviewer_Location": "Taiwan",
+        "Avg_Rating": 4.4444444444,
+        "Reviews_Count": 9
+    },
+    {
+        "Reviewer_Location": "Tanzania",
+        "Avg_Rating": 4.5,
+        "Reviews_Count": 2
+    },
+    {
+        "Reviewer_Location": "Thailand",
+        "Avg_Rating": 3.8666666667,
+        "Reviews_Count": 15
+    },
+    {
+        "Reviewer_Location": "The Bahamas",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Trinidad and Tobago",
+        "Avg_Rating": 3.5,
+        "Reviews_Count": 2
+    },
+    {
+        "Reviewer_Location": "Tunisia",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Turkey",
+        "Avg_Rating": 4.9,
+        "Reviews_Count": 10
+    },
+    {
+        "Reviewer_Location": "Turks and Caicos Islands",
+        "Avg_Rating": 1.5,
+        "Reviews_Count": 2
+    },
+    {
+        "Reviewer_Location": "U.S. Virgin Islands",
+        "Avg_Rating": 4,
+        "Reviews_Count": 5
+    },
+    {
+        "Reviewer_Location": "Uganda",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Ukraine",
+        "Avg_Rating": 5,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "United Arab Emirates",
+        "Avg_Rating": 4.2051282051,
+        "Reviews_Count": 39
+    },
+    {
+        "Reviewer_Location": "United Kingdom",
+        "Avg_Rating": 4.2904808636,
+        "Reviews_Count": 1019
+    },
+    {
+        "Reviewer_Location": "United States",
+        "Avg_Rating": 4.3938214546,
+        "Reviews_Count": 12333
+    },
+    {
+        "Reviewer_Location": "Uruguay",
+        "Avg_Rating": 3.75,
+        "Reviews_Count": 4
+    },
+    {
+        "Reviewer_Location": "Vanuatu",
+        "Avg_Rating": 4,
+        "Reviews_Count": 1
+    },
+    {
+        "Reviewer_Location": "Vietnam",
+        "Avg_Rating": 4.25,
+        "Reviews_Count": 12
+    }
+]
