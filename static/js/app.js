@@ -38,8 +38,8 @@ function optionChanged(selectedID) {
       row = reviewsums[i];
       // Compare value to selected argument
       if (row.Reviewer_Location == selectedID) {
-        var reviewAvg = row.Avg_Rating;
-        var reviewCount = row.Reviews_Count;
+        var reviewAvg = row.Avg_Rating.toFixed(2);
+        var reviewCount = row.Reviews_Count.toLocaleString();
       }
     }
     // country info
