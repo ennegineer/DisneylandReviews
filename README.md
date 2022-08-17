@@ -1,10 +1,8 @@
 # Disneyland Reviews
-Revisiting the DisneyETL project.
-
-[See the original project here!](https://github.com/ennegineer/DisneyETL)
+Revisiting the DisneyETL project. [See the original project here!](https://github.com/ennegineer/DisneyETL)
 
 ## Background: the original project
-In the original repository, Sally and I decided on Disneyland reviews as our dataset for an ETL project. We found a dataset on Kaggle and filtered the data by park (we wanted to only consider reviews for Disneyland California) and removed duplicate entries. We then found a website that tracks the high and low temperatures as well as the crowd level in the park daily. I wrote a script to scrape this data from the website from 9/1/2014 through 4/30/2019 using `beautifulsoup` and save it to csv for later use.
+In the original repository, [Sally](https://github.com/saaallyahmed) and I decided on Disneyland reviews as our dataset for an ETL project. We found a dataset on Kaggle and filtered the data by park (we wanted to only consider reviews for Disneyland California) and removed duplicate entries. We then found a website that tracks the high and low temperatures as well as the crowd level in the park daily. I wrote a script to scrape this data from the website from 9/1/2014 through 4/30/2019 using `beautifulsoup` and save it to csv for later use.
 
 Our original findings were lackluster. We had hoped to find a correlation between reviews and crowd level (assumption: a crowded park may lead to a less than ideal experience). However, the reviews data from Kaggle gives only the month/year for the review date. Without knowing the actual date of the visit in review, we cannot compare the reviews to the crowd level for that day. Aggregating the crowd levels into months becomes meaningless.
 
