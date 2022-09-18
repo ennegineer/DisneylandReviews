@@ -1,29 +1,29 @@
 <script>
     import {json, select} from 'd3'
+    import reviews from './assets/data/reviews.json'
+    import countries from './assets/data/countries.json'
+    import reviewsums from './assets/data/summary.json'
     
-    let reviews;
-    let countries = [];
-    let reviewsums = [];
     let currentCountry = 'United States';
     // currentRevSums is returning the object from reviewsums where the country matches the currently selected country
     $: currentRevSums = reviewsums.find((reviewsum) => {return reviewsum.Reviewer_Location == currentCountry});
     
     // use D3 to read in reviews.json
-    json("./data/reviews.json").then(function (data) {
-        reviews = data;
-        console.log(reviews[0]);
-    });
+    // json(reviewsData).then(function (data) {
+    //     reviews = data;
+    //     console.log(reviews[0]);
+    // });
     
     // use D3 to read in summary.json
-    json("./data/summary.json").then(function (summdata) {
-        reviewsums = summdata;
-    });
+    // json(summaryData).then(function (summdata) {
+    //     reviewsums = summdata;
+    // });
     
     
     // use D3 to read in countries.json
-    json("./data/countries.json").then(function (countrydata) {
-        countries = countrydata;
-    });
+    // json(countryData).then(function (countrydata) {
+    //     countries = countrydata;
+    // });
     </script>
     
     <main>

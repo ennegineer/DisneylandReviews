@@ -37,6 +37,8 @@ As I begin pulling more of the data onto the page, I'll build some visualization
 
 **Learn a Framework**
 
-I'm sure I will not get through all of the above goals linearly, so at some point before I'm finished with everything else, I want to learn a js framework so I can have components across multiple pages. The most apparent use case here is for navigation. 
+I did not move through all of the above goals linearly. After the initial ETL processes and starting on the basic javascript page, I migrated all code into the Svelte framework. I want to learn a js framework so I can have components across multiple pages. The most apparent use case here is for navigation (a separate menu component, rather than having to make any menu changes across all pages).
+
+In the process of working out the kinks to get my simple page working in Svelte, I deployed this project to Netlify, as I wasn't sure if some of the issues were caused by trying to host a Svelte site in GitHub.
 
 
