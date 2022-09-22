@@ -2,11 +2,16 @@
   import svelteLogo from './assets/svelte.svg'
   import Counter from './lib/Counter.svelte'
   import Graph from './Graph.svelte'
+  import Menu from './Menu.svelte'
+  import Foot from './Foot.svelte'
 </script>
 
 <main>
+  <Menu/>
   <Graph/>
 
+
+  <Foot/>
   <!-- <div>
     <a href="https://vitejs.dev" target="_blank"> 
       <img src="/vite.svg" class="logo" alt="Vite Logo" />
@@ -31,5 +36,9 @@
 </main>
 
 <style>
-
+html, body {
+  height: 100%;
+  margin: 0px;
+  min-height: 100%;
+}
 </style>
