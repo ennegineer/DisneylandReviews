@@ -10,6 +10,20 @@ h1 {
     color: #ffffff;
     font-family: 'Mouse Memoirs', sans-serif;
 }
+.title {
+    background-color: #80e5ff;
+    background-image: linear-gradient(55deg, #80e5ff, #8816f3);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+h2, h3 {
+    color: #47daff;
+    font-family: 'Quicksand', sans-serif;
+}
 p {
     color: #a8a8a8;
     font-family: 'Quicksand', sans-serif;

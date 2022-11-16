@@ -4,6 +4,7 @@
 .footer {
     width: 100%;
     margin: 0px;
+    padding: 3px;
     color: #fff;
     background-color: #000;
     position: fixed;

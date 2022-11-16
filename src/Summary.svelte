@@ -1,6 +1,4 @@
 <script>
-    import {json, select} from 'd3'
-    import reviews from './assets/data/reviews.json'
     import countries from './assets/data/countries.json'
     import reviewsums from './assets/data/summary.json'
     
@@ -8,28 +6,16 @@
     // currentRevSums is returning the object from reviewsums where the country matches the currently selected country
     $: currentRevSums = reviewsums.find((reviewsum) => {return reviewsum.Reviewer_Location == currentCountry});
     
-    // use D3 to read in reviews.json
-    // json(reviewsData).then(function (data) {
-    //     reviews = data;
-    //     console.log(reviews[0]);
-    // });
-    
-    // use D3 to read in summary.json
-    // json(summaryData).then(function (summdata) {
-    //     reviewsums = summdata;
-    // });
-    
-    
-    // use D3 to read in countries.json
-    // json(countryData).then(function (countrydata) {
-    //     countries = countrydata;
-    // });
     </script>
     
     <main>
-        
+        <h3>Project Summary</h3>
         <br />
         <p>
+            The purpose of this project is to explore two datasets together to look for possible trends or correlations. The data used are Disneyland reviews from TripAdvisor, found on Kaggle, and data on crowd levels in the park and weather per day, scraped from touringplans.com.
+
+            <br /><br />
+
             Pick a reviewer location:
         </p>
     
