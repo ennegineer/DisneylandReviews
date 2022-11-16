@@ -3,6 +3,7 @@
   import Counter from './lib/Counter.svelte'
   import { Router, Link, Route } from "svelte-routing";
   import Summary from './Summary.svelte'
+  import Data from './Data.svelte'
   import Menu from './Menu.svelte'
   import Foot from './Foot.svelte'
 </script>
@@ -10,18 +11,11 @@
 <Router url="">
   <Menu/>
   <main>
-    <Route path="summary" component="{Summary}" />
-    <!-- <Route path="/" component="{Home}" /> -->
-
-    <Foot/>
+    <Route path="/" component="{Summary}" />
+    <Route path="data" component="{Data}" />
   </main>
+  <Foot/>
 </Router>
-
-
-  
-
-
-
 
 
 <style>
