@@ -10,7 +10,9 @@
 
 <h3>Project Summary</h3>
 <p>
-    The purpose of this project is to explore two datasets together to look for possible trends or correlations. The data used are Disneyland reviews from TripAdvisor, found on Kaggle, and data on crowd levels in the park and weather per day, scraped from touringplans.com.
+    The purpose of this project is to explore two datasets together to look for possible trends or correlations. The data used are Disneyland reviews from TripAdvisor, found on Kaggle, and data on crowd levels in the park and weather per day, scraped from touringplans.com.<br />
+    <br />
+    Additionally, this project is the subject for my learning Svelte and continuing to work with graphs in JavaScript.
 
     <br /><br /></p>
 <h3>Reviews Summarized by Location</h3>
