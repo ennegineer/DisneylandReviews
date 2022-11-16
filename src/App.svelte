@@ -4,7 +4,7 @@
   import { Router, Link, Route } from "svelte-routing";
   import Summary from './Summary.svelte'
   import Data from './Data.svelte'
-  import Graph from './Graph.svelte'
+  import Graphs from './Graphs.svelte'
   import Menu from './Menu.svelte'
   import Foot from './Foot.svelte'
 </script>
@@ -13,7 +13,7 @@
   <Menu/>
   <main>
     <Route path="/" component="{Summary}" />
-    <Route path="graphs" component="{Graph}" />
+    <Route path="graphs" component="{Graphs}" />
     <Route path="data" component="{Data}" />
   </main>
   <Foot/>
