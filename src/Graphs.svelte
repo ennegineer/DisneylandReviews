@@ -16,12 +16,31 @@
       let data = [{
         x: ['1 Star', '2 Stars', '3 Stars', '4 Stars', '5 Stars'],
         y: [R1.length, R2.length, R3.length, R4.length, R5.length],
-        type: 'bar'
+        type: 'bar',
+        marker: {
+                color: '#f33bbc'
+              }
       }];
     
       onMount(() => {
-            new Plotly.newPlot(plotDiv, data, {width: 500, height: 400, title: "Total reviews per rating",}, {showSendToCloud:true}); 
-            new Plotly.newPlot(plotYr, newData, {width: 500, height: 400, title: "Average rating per year",},
+            new Plotly.newPlot(plotDiv, data, {
+              width: 500, 
+              height: 400, 
+              title: "Total reviews per rating",
+              paper_bgcolor: '#3a3a3a',
+              plot_bgcolor: '#d1d1d1',
+              font: {
+                color: '#47daff'
+              }}, {showSendToCloud:true}); 
+            new Plotly.newPlot(plotYr, newData, {
+              width: 500,
+              height: 400,
+              title: "Average rating per year",
+              paper_bgcolor: '#3a3a3a',
+              plot_bgcolor: '#d1d1d1',
+              font: {
+                color: '#47daff'
+              }},
             {showSendToCloud:true});
       });
         
@@ -72,7 +91,10 @@
       let newData = [{
         x: years,
         y: rArray,
-        type: "bar"
+        type: "bar",
+        marker: {
+                color: '#f33bbc'
+              }
       }]
 
     </script>
@@ -86,7 +108,6 @@
     </div>
 </div>
 
-<!-- average reviews by year -->
 <style>
   #plotly {
     display: flex;
@@ -94,3 +115,4 @@
   }
 </style>
 
+<!-- US vs. rest of the world averages -->
