@@ -1,4 +1,4 @@
-<div class="footer"><p><a href="https://github.com/ennegineer" target="_blank">Enne</a> made dis. © 2022</p></div>
+<div class="footer"><p><a href="https://github.com/ennegineer" target="_blank">Enne</a> made dis. © 2023</p></div>
 
 <style>
 .footer {
