@@ -100,7 +100,7 @@
     </script>
 
 <h3>Total Reviews</h3>
-<p>Total reviews in the dataset: {numReviews}</p>
+<p>Total reviews in the dataset: {numReviews.toLocaleString()}</p>
 <div id="plotly">
   <div bind:this={plotDiv}><!-- Plotly chart will be drawn inside this DIV -->
     </div>
