@@ -29,7 +29,8 @@
     }
       let bestReview = find_review(5, true) // rating=5, longest review
       let bestShortReview = find_review(5, false) // rating=5, shortest review
-
+      let worstReview = find_review(1, true) // rating=5, longest review
+      let worstShortReview = find_review(1, false) // rating=5, shortest review
 
 
     // //   Accordion!
@@ -92,7 +93,21 @@ The longest reviews are certainly long, so they are tucked into the accordions b
         <h2>Worst Reviews</h2>
     </div>
     <div slot="details">
-        <p>(one moment please!)</p>
+        <p>Here's our shortest 1-star review:<br /><br />
+            Review ID:  {worstShortReview.Review_ID} <br />
+            Rating:  {worstShortReview.Rating} <br />
+            Review Date:  {worstShortReview.Year_Month} <br />
+            Reviewer Location:  {worstShortReview.Reviewer_Location} <br />
+            Review Text:  {worstShortReview.Review_Text} <br />
+            <br />Uh oh. Maybe this reviewer entered the wrong number of stars??
+            <br /><br />   
+            And here's our worst review, assuming that the lowest rated and longest written review is the worst.
+              <br /><br />
+            Review ID:  {worstReview.Review_ID} <br />
+            Rating:  {worstReview.Rating} <br />
+            Review Date:  {worstReview.Year_Month} <br />
+            Reviewer Location:  {worstReview.Reviewer_Location} <br />
+            Review Text:  {worstReview.Review_Text} <br /></p>
     </div>
 </Accordion>
 

@@ -64,7 +64,7 @@
         transition: 0.4s;
       }
       .active, .accordion:hover {
-        background-color: rgb(94, 94, 94);
+        background-color: rgb(82, 82, 82);
       }
       div.header {
           display:flex;
