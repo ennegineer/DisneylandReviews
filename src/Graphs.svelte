@@ -16,6 +16,8 @@
       let data = [{
         x: ['1 Star', '2 Stars', '3 Stars', '4 Stars', '5 Stars'],
         y: [R1.length, R2.length, R3.length, R4.length, R5.length],
+        text: [R1.length, R2.length, R3.length.toLocaleString(), R4.length.toLocaleString(), R5.length.toLocaleString()],
+        textposition: 'auto',
         type: 'bar',
         marker: {
                 color: '#f33bbc'
@@ -107,6 +109,12 @@
     <div bind:this={plotYr}>
     </div>
 </div>
+<br />
+<br />
+<h3>Thoughts and Questions</h3>
+<p>What were the best and worst reviews of Disneyland California during our recorded timeframe? The best review would be one of the more than 12,000 five-star reviews. How can we pick one as possibly the *best*? Let's consider that the best review might be the five-star review from the reviewer that had the most to say. Should we consider character count, or word count? What about the amount of exclamation marks, showing the reviewer's excitement about their park experience?<br /><br />
+Let's apply that same logic for the worst Disneyland review. We can assume the worst review will be one of the nearly 500 one-star reviews - would it be from the person who had the most to say about their experience? What happens if we consider the amount of exclamation marks in a negative review?</p>
+<br /><br />
 
 <style>
   #plotly {
