@@ -6,6 +6,7 @@ import { Link } from "svelte-routing";
     <h1 class='title'>Disneyland Reviews</h1>
         <p>
             <Link to="/">Summary</Link> | 
+            <Link to="reviews">Reviews</Link> |
             <Link to="graphs">Graphs</Link> |
             <Link to="data">Data</Link>
         </p>

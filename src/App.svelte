@@ -1,8 +1,9 @@
 <script>
   import svelteLogo from './assets/svelte.svg'
   import Counter from './lib/Counter.svelte'
-  import { Router, Link, Route } from "svelte-routing";
+  import { Router, Link, Route } from "svelte-routing"
   import Summary from './Summary.svelte'
+  import Reviews from './Reviews.svelte'
   import Data from './Data.svelte'
   import Graphs from './Graphs.svelte'
   import Menu from './Menu.svelte'
@@ -13,6 +14,7 @@
   <Menu/>
   <main>
     <Route path="/" component="{Summary}" />
+    <Route path="reviews" component="{Reviews}" />
     <Route path="graphs" component="{Graphs}" />
     <Route path="data" component="{Data}" />
   </main>
