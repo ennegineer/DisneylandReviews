@@ -52,6 +52,14 @@
     //         }
     //     });
     //     }
+
+    // function for counting ! in reviews
+    function exclCount(review, char) {
+        var ex = review.split(char).length - 1;
+        return ex;
+    }
+
+    console.log(exclCount(bestReview.Review_Text, '!'))
     </script>
 
 <h3>Total Reviews</h3>
