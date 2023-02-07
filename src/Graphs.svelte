@@ -3,6 +3,7 @@
     import {json, select, sum} from 'd3'
     import { onMount } from 'svelte'
     import reviews from './assets/data/reviews.json'
+    import summ from './assets/data/summary.json'
         
       let numReviews = reviews.length;
       let R1 = reviews.filter( element => element.Rating == 1)
@@ -38,6 +39,16 @@
               width: 500,
               height: 400,
               title: "Average rating per year",
+              paper_bgcolor: '#3a3a3a',
+              plot_bgcolor: '#d1d1d1',
+              font: {
+                color: '#47daff'
+              }},
+            {showSendToCloud:true});
+            new Plotly.newPlot(plotCountries, countrySumm, {
+              width: 1250,
+              height: 800,
+              title: "Average rating per country",
               paper_bgcolor: '#3a3a3a',
               plot_bgcolor: '#d1d1d1',
               font: {
@@ -88,7 +99,7 @@
         })
 
       let plotYr;
-      console.log(rArray)
+      // console.log(rArray)
 
       let newData = [{
         x: years,
@@ -96,6 +107,37 @@
         type: "bar",
         marker: {
                 color: '#f33bbc'
+              }
+      }]
+
+      let sortedCountries = summ.sort(function(country1, country2) {
+       if (country1.Reviews_Count > country2.Reviews_Count) {
+        return 1;
+       }
+       if (country1.Reviews_Count < country2.Reviews_Count) {
+        return -1;
+       }
+       return 0;
+      })
+
+      let plotCountries;
+
+      let countrySumm = [{
+        name: 'Average Rating',
+        x: sortedCountries.map(country => country.Reviewer_Location),
+        y: sortedCountries.map(country => country.Avg_Rating),
+        type: "bar",
+        marker: {
+                color: '#f33bbc'
+              }
+      },
+      {       
+        name: 'Number of Reviews',
+        x: sortedCountries.map(country => country.Reviewer_Location),
+        y: sortedCountries.map(country => country.Reviews_Count),
+        type: "bar",
+        marker: {
+                color: '#8408f8'
               }
       }]
     
@@ -109,6 +151,10 @@
     <div bind:this={plotYr}>
     </div>
 </div>
+<div>
+  <div bind:this={plotCountries}>
+  </div>
+</div>
 <br />
 <br />
 
@@ -118,5 +164,3 @@
     justify-content: space-around;
   }
 </style>
-
-<!-- US vs. rest of the world averages -->
