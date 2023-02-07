@@ -55,6 +55,16 @@
                 color: '#47daff'
               }},
             {showSendToCloud:true});
+            new Plotly.newPlot(plotSingles, singleSumm, {
+              width: 700,
+              height: 400,
+              title: "Rating per country with only one review",
+              paper_bgcolor: '#3a3a3a',
+              plot_bgcolor: '#d1d1d1',
+              font: {
+                color: '#47daff'
+              }},
+            {showSendToCloud:true});
       });
         
 
@@ -110,7 +120,7 @@
               }
       }]
 
-      let sortedCountries = summ.sort(function(country1, country2) {
+      let sortedCountries = summ.filter(country => (country.Reviews_Count < 50)).sort(function(country1, country2) {
        if (country1.Reviews_Count > country2.Reviews_Count) {
         return 1;
        }
@@ -120,12 +130,24 @@
        return 0;
       })
 
+      let multipleReviews = sortedCountries.filter(country => (country.Reviews_Count > 1));
+
+      let singleReviews = sortedCountries.filter(country => (country.Reviews_Count === 1)).sort(function(country1, country2) {
+       if (country1.Avg_Rating > country2.Avg_Rating) {
+        return 1;
+       }
+       if (country1.Avg_Rating < country2.Avg_Rating) {
+        return -1;
+       }
+       return 0;
+      });
+
       let plotCountries;
 
       let countrySumm = [{
         name: 'Average Rating',
-        x: sortedCountries.map(country => country.Reviewer_Location),
-        y: sortedCountries.map(country => country.Avg_Rating),
+        x: multipleReviews.map(country => country.Reviewer_Location),
+        y: multipleReviews.map(country => country.Avg_Rating),
         type: "bar",
         marker: {
                 color: '#f33bbc'
@@ -133,14 +155,34 @@
       },
       {       
         name: 'Number of Reviews',
-        x: sortedCountries.map(country => country.Reviewer_Location),
-        y: sortedCountries.map(country => country.Reviews_Count),
+        x: multipleReviews.map(country => country.Reviewer_Location),
+        y: multipleReviews.map(country => country.Reviews_Count),
         type: "bar",
         marker: {
                 color: '#8408f8'
               }
       }]
     
+      let plotSingles;
+      let singleSumm = [{
+        name: 'Average Rating',
+        x: singleReviews.map(country => country.Reviewer_Location),
+        y: singleReviews.map(country => country.Avg_Rating),
+        type: "bar",
+        marker: {
+                color: '#f33bbc'
+              }
+      },
+      {       
+        name: 'Number of Reviews',
+        x: singleReviews.map(country => country.Reviewer_Location),
+        y: singleReviews.map(country => country.Reviews_Count),
+        type: "bar",
+        marker: {
+                color: '#8408f8'
+              }
+      }]
+
     </script>
 
 <h3>Total Reviews</h3>
@@ -150,6 +192,10 @@
     </div>
     <div bind:this={plotYr}>
     </div>
+</div>
+<div>
+  <div bind:this={plotSingles}>
+  </div>
 </div>
 <div>
   <div bind:this={plotCountries}>
