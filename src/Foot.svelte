@@ -7,11 +7,11 @@
     padding: 0px;
     padding-left: 1.5rem;
     color: #fff;
-    background-color: #000;
+    background-color: #353739;
     position: fixed;
     bottom: 0px;
   }
 .footer p {
-    color: #a8a8a8;
+    color: #fffbfe;
     font-family: 'Quicksand', sans-serif;
   }</style>

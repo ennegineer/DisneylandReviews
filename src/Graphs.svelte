@@ -13,6 +13,10 @@
       let R5 = reviews.filter( element => element.Rating == 5)
 
       let plotDiv;
+
+      let paperbgcolor = '#353739';
+      let fontcolor = '#47f0ff';
+
     
       let data = [{
         x: ['1 Star', '2 Stars', '3 Stars', '4 Stars', '5 Stars'],
@@ -21,7 +25,7 @@
         textposition: 'auto',
         type: 'bar',
         marker: {
-                color: '#f33bbc'
+                color: '#ff6b6b'
               }
       }];
     
@@ -30,39 +34,39 @@
               width: 500, 
               height: 400, 
               title: "Total reviews per rating",
-              paper_bgcolor: '#3a3a3a',
-              plot_bgcolor: '#d1d1d1',
+              paper_bgcolor: paperbgcolor,
+              plot_bgcolor: paperbgcolor,
               font: {
-                color: '#47daff'
+                color: fontcolor
               }}, {showSendToCloud:true}); 
             new Plotly.newPlot(plotYr, newData, {
               width: 500,
               height: 400,
               title: "Average rating per year",
-              paper_bgcolor: '#3a3a3a',
-              plot_bgcolor: '#d1d1d1',
+              paper_bgcolor: paperbgcolor,
+              plot_bgcolor: paperbgcolor,
               font: {
-                color: '#47daff'
+                color: fontcolor
               }},
             {showSendToCloud:true});
             new Plotly.newPlot(plotCountries, countrySumm, {
               width: 1250,
               height: 800,
               title: "Average rating per country",
-              paper_bgcolor: '#3a3a3a',
-              plot_bgcolor: '#d1d1d1',
+              paper_bgcolor: paperbgcolor,
+              plot_bgcolor: paperbgcolor,
               font: {
-                color: '#47daff'
+                color: fontcolor
               }},
             {showSendToCloud:true});
             new Plotly.newPlot(plotSingles, singleSumm, {
               width: 700,
               height: 400,
               title: "Rating per country with only one review",
-              paper_bgcolor: '#3a3a3a',
-              plot_bgcolor: '#d1d1d1',
+              paper_bgcolor: paperbgcolor,
+              plot_bgcolor: paperbgcolor,
               font: {
-                color: '#47daff'
+                color: fontcolor
               }},
             {showSendToCloud:true});
       });
@@ -116,7 +120,7 @@
         y: rArray,
         type: "bar",
         marker: {
-                color: '#f33bbc'
+                color: '#ffc247'
               }
       }]
 
@@ -143,14 +147,14 @@
       });
 
       let plotCountries;
-
+      // Consider changing the countries with average ratings plot to a bubble or scatter
       let countrySumm = [{
         name: 'Average Rating',
         x: multipleReviews.map(country => country.Reviewer_Location),
         y: multipleReviews.map(country => country.Avg_Rating),
         type: "bar",
         marker: {
-                color: '#f33bbc'
+                color: '#1893D6'
               }
       },
       {       
@@ -159,7 +163,7 @@
         y: multipleReviews.map(country => country.Reviews_Count),
         type: "bar",
         marker: {
-                color: '#8408f8'
+                color: '#ffc247'
               }
       }]
     
@@ -170,7 +174,7 @@
         y: singleReviews.map(country => country.Avg_Rating),
         type: "bar",
         marker: {
-                color: '#f33bbc'
+                color: '#47f0ff'
               }
       },
       {       
@@ -179,7 +183,7 @@
         y: singleReviews.map(country => country.Reviews_Count),
         type: "bar",
         marker: {
-                color: '#8408f8'
+                color: '#ff6b6b'
               }
       }]
 
